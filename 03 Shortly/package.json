@@ -1,0 +1,11 @@
+{
+  "name": "tailwind-css-test-project",
+  "version": "1.0.0",
+  "description": "A test project using Tailwind CSS",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
